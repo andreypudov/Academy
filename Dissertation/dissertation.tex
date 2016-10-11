@@ -1,0 +1,42 @@
+%&preformat-disser
+\RequirePackage[l2tabu,orthodox]{nag} % Раскомментировав, можно в логе получать рекомендации относительно правильного использования пакетов и предупреждения об устаревших и нерекомендуемых пакетах
+% Формат А4, 14pt (ГОСТ Р 7.0.11-2011, 5.3.6)
+\documentclass[a4paper,14pt]{extreport}
+
+\input{../Template/common/setup}     % общие настройки шаблона
+\input{../Template/common/packages}  % Пакеты общие для диссертации и автореферата
+\input{Parts/dispackages}            % Пакеты для диссертации
+\input{Parts/userpackages}           % Пакеты для специфических пользовательских задач
+
+\input{Parts/setup}                  % Упрощённые настройки шаблона
+
+\input{Parts/preamblenames}          % Переопределение именований, чтобы можно было и в преамбуле использовать
+\input{../Template/common/newnames}  % Новые переменные, которые могут использоваться во всём проекте
+
+\input{../Template/common/data}      % Основные сведения
+\input{../Template/common/styles}    % Стили общие для диссертации и автореферата
+\input{Parts/disstyles}              % Стили для диссертации
+\input{Parts/userstyles}             % Стили для специфических пользовательских задач
+\input{../Template/biblio/bibliopreamble}% Настройки библиографии из внешнего файла (там же выбор: встроенная или на основе biblatex)
+
+\input{Parts/inclusioncontrol}       % Управление компиляцией отдельных частей диссертации
+
+\begin{document}
+
+\input{../Template/common/renames}                   % Переопределение именований
+
+% Структура диссертации (ГОСТ Р 7.0.11-2011, 4)
+\include{Parts/title}           % Титульный лист
+\include{Parts/contents}        % Оглавление
+\include{Parts/introduction}    % Введение
+\include{Parts/part1}           % Глава 1
+\include{Parts/part2}           % Глава 2
+\include{Parts/part3}           % Глава 3
+\include{Parts/conclusion}      % Заключение
+\include{Parts/acronyms}        % Список сокращений и условных обозначений
+\include{Parts/dictionary}      % Словарь терминов
+\include{Parts/references}      % Список литературы
+\include{Parts/lists}           % Списки таблиц и изображений (иллюстративный материал)
+\include{Parts/appendix}        % Приложения
+
+\end{document}
