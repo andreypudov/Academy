@@ -1,0 +1,2163 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    103505,       2154]
+NotebookOptionsPosition[    103175,       2137]
+NotebookOutlinePosition[    103532,       2153]
+CellTagsIndexPosition[    103489,       2150]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"WolframAlpha", "[", "\"\<Cu + HNO3 -> Cu(NO3)2 + NO2 + H2O\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.690450358574918*^9, 3.690450358575885*^9}, {
+  3.690450474683797*^9, 3.690450488067473*^9}}],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "Cu + HNO3 -> Cu(NO3)2 + NO2 + H2O", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {
+     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+      "Sources"}}, Typeset`elements$$ = {
+   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+    "Sources"}, Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+    
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             FormBox[
+              FormBox[
+               TemplateBox[{"  ", "\"  \"", 
+                 FormBox[
+                  FormBox[
+                   TemplateBox[{
+                    StyleBox["\" + \"", {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], 
+                    TemplateBox[{
+                    StyleBox[
+                    TemplateBox[{"\"Cu\""}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"copper\"", "\[NoBreak]", 
+                    "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], 
+                    TemplateBox[{
+                    StyleBox[
+                    TemplateBox[{"\"H\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"]}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"aqueous nitric acid\"", 
+                    "\[NoBreak]", "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"]}, 
+                    "RowWithSeparator"], TraditionalForm], TraditionalForm], 
+                 StyleBox["\"  \[LongRightArrow]  \"", {
+                   GrayLevel[0.6], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}, StripOnInput -> False], 
+                 FormBox[
+                  FormBox[
+                   TemplateBox[{
+                    StyleBox["\" + \"", {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], 
+                    TemplateBox[{
+                    StyleBox[
+                    TemplateBox[{"\"Cu\"", 
+                    SubscriptBox[
+                    TemplateBox[{"\"(\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"], "\")\""}, "RowDefault"], 
+                    "2"]}, "RowDefault"], ScriptBaselineShifts -> {0.5, 0.75},
+                     StripOnInput -> False], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"copper(II) nitrate\"", 
+                    "\[NoBreak]", "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], 
+                    TemplateBox[{
+                    StyleBox[
+                    TemplateBox[{"\"N\"", 
+                    SubscriptBox["\"O\"", "2"]}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"nitrogen dioxide\"", 
+                    "\[NoBreak]", "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], 
+                    TemplateBox[{
+                    StyleBox[
+                    TemplateBox[{
+                    SubscriptBox["\"H\"", "2"], "\"O\""}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"water\"", "\[NoBreak]", 
+                    "\")\""}], {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"]}, 
+                    "RowWithSeparator"], TraditionalForm], TraditionalForm]}, 
+                "RowWithSeparators"], TraditionalForm], TraditionalForm], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {
+              FontFamily -> "Times", 
+               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsFrameTicks"]}}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          CellSize -> {550, Automatic}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"title" -> "Balanced equation", "scanner" -> "Data", "id" -> 
+     "BalancedEquationPod:ChemicalReactionData", "position" -> "200", "error" -> 
+     "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            FormBox[
+             TemplateBox[{
+               TemplateBox[{
+                 StyleBox["\" + \"", {
+                   GrayLevel[0.6], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}, StripOnInput -> False], 
+                 FormBox[
+                  TemplateBox[{"\" \"", 
+                    StyleBox[
+                    TemplateBox[{"\"Cu\""}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False]}, "RowDefault"], TraditionalForm], 
+                 FormBox[
+                  TemplateBox[{"4", "\" \"", 
+                    StyleBox[
+                    TemplateBox[{"\"H\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"]}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False]}, "RowDefault"], TraditionalForm]}, 
+                "RowWithSeparator"], 
+               StyleBox["\"    \[LongRightArrow]    \"", {
+                 GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                 LineIndent -> 0}, StripOnInput -> False], 
+               TemplateBox[{
+                 StyleBox["\" + \"", {
+                   GrayLevel[0.6], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}, StripOnInput -> False], 
+                 FormBox[
+                  TemplateBox[{"\" \"", 
+                    StyleBox[
+                    TemplateBox[{"\"Cu\"", 
+                    SubscriptBox[
+                    TemplateBox[{"\"(\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"], "\")\""}, "RowDefault"], 
+                    "2"]}, "RowDefault"], ScriptBaselineShifts -> {0.5, 0.75},
+                     StripOnInput -> False]}, "RowDefault"], TraditionalForm], 
+                 FormBox[
+                  TemplateBox[{"2", "\" \"", 
+                    StyleBox[
+                    TemplateBox[{"\"N\"", 
+                    SubscriptBox["\"O\"", "2"]}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False]}, "RowDefault"], TraditionalForm], 
+                 FormBox[
+                  TemplateBox[{"2", "\" \"", 
+                    StyleBox[
+                    TemplateBox[{
+                    SubscriptBox["\"H\"", "2"], "\"O\""}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False]}, "RowDefault"], TraditionalForm]}, 
+                "RowWithSeparator"]}, "RowDefault"], TraditionalForm], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {
+              FontFamily -> "Times", 
+               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsFrameTicks"]}}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          CellSize -> {550, Automatic}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["states", {"count" -> "2"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Show equation details", "input" -> 
+         "BalancedEquationPod:ChemicalReactionData__Show equation details"}, \
+{}], 
+       XMLElement[
+       "state", {
+        "name" -> "Step\[Hyphen]by\[Hyphen]step", "input" -> 
+         "BalancedEquationPod:ChemicalReactionData__Step\[Hyphen]by\[Hyphen]\
+step"}, {}]}]}], Typeset`pod3$$ = XMLElement[
+   "pod", {"title" -> "Structures", "scanner" -> "Data", "id" -> 
+     "ReactionStructures:ChemicalReactionData", "position" -> "300", "error" -> 
+     "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              TemplateBox[{
+                StyleBox["\"  +  \"", {
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False], 
+                GraphicsBox[{
+                  CapForm["Round"], Null, {}, {{
+                    RGBColor[0.784314, 0.501961, 0.2], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"Cu\"", FontSize -> Scaled[0.28089887640449435`], 
+                    StripOnInput -> False], TraditionalForm], {200., 0.}]}}, 
+                  Null}, {
+                 ImagePadding -> 2, ImageSize -> 80., 
+                  PlotRange -> {{146.6, 253.4}, {-30., 30.}}}], 
+                GraphicsBox[{
+                  CapForm["Round"], Null, {{{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.12216510862568489`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {373.21, 75.}], 
+                    
+                    LineBox[{{354.7569893807842, 64.34706695576969}, {329.905,
+                     50.}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.12216510862568489`],
+                     FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {286.6, 25.}], 
+                    
+                    LineBox[{{329.905, 50.}, {313.5775777759001, 
+                    40.57417028974723}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.12216510862568489`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {373.21, 75.}], 
+                    
+                    LineBox[{{391.66230612104584`, 64.3458467172207}, {
+                    400.055, 59.5}}], 
+                    RGBColor[
+                    0.43333333333333335`, 0.4666666666666667, 
+                    0.4666666666666667], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"H\"", FontSize -> Scaled[0.12216510862568489`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {426.90000000000003`, 44.}], 
+                    
+                    LineBox[{{400.055, 59.5}, {409.8471962486224, 
+                    53.846096410741396`}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"O\"", "\"-\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.12216510862568489`],
+                     FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {200., 75.}], 
+                    
+                    LineBox[{{224.0505395865863, 61.11400716709798}, {243.3, 
+                    50.}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.12216510862568489`],
+                     FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {286.6, 25.}], 
+                    
+                    LineBox[{{243.3, 50.}, {259.62320093316094`, 
+                    40.57551909170847}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.12216510862568489`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {286.6, -75.}], 
+                    
+                    LineBox[{{{281.6, -53.69275749052112}, {281.6, -25.}}, {{
+                    291.6, -53.69275749052112}, {291.6, -25.}}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.12216510862568489`],
+                     FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {286.6, 25.}], 
+                    
+                    LineBox[{{{281.6, -25.}, {
+                    281.6, -6.1503528530382034`}}, {{291.6, -25.}, {
+                    291.6, -6.1503528530382034`}}}]}}}, {}, Null}, {
+                 ImagePadding -> 2, ImageSize -> 92.62723934268766, 
+                  PlotRange -> {{165.84293798690234`, 
+                   444.52945136159883`}, {-104.38241893599798`, 
+                   104.38241893599798`}}}]}, "RowWithSeparator"], "\"   \"", 
+              StyleBox["\"\[LongRightArrow]\"", {
+                GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                LineIndent -> 0}, StripOnInput -> False], "\"   \"", 
+              TemplateBox[{
+                StyleBox["\"  +  \"", {
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False], 
+                GraphicsBox[{
+                  CapForm["Round"], Null, {{{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"O\"", "\"-\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {250., 150.}], 
+                    
+                    LineBox[{{274.46503823676187`, 135.87468923974487`}, {
+                    293.3, 125.}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 100.}], 
+                    
+                    LineBox[{{293.3, 125.}, {309.147196031669, 
+                    115.85034871150752`}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"O\"", "\"-\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 0.}], 
+                    LineBox[{{336.6, 28.25}, {336.6, 50.}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 100.}], 
+                    LineBox[{{336.6, 50.}, {336.6, 68.3}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"O\"", "\"-\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {250., 500.}], 
+                    
+                    LineBox[{{274.46503823676187`, 485.8746892397449}, {293.3,
+                     475.}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 450.}], 
+                    
+                    LineBox[{{293.3, 475.}, {309.147196031669, 
+                    465.85034871150754`}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"O\"", "\"-\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 350.}], 
+                    LineBox[{{336.6, 378.25}, {336.6, 400.}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 450.}], 
+                    LineBox[{{336.6, 400.}, {336.6, 418.3}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {423.20000000000005`, 150.}], 
+                    
+                    LineBox[{{{406.95068751058784`, 134.84476184214077`}, {
+                    382.40000000000003`, 120.67}}, {{401.95068751058784`, 
+                    143.50476184214077`}, {377.40000000000003`, 129.33}}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 100.}], 
+                    
+                    LineBox[{{{382.40000000000003`, 120.67}, {
+                    366.55280396833103`, 111.52034871150752`}}, {{
+                    377.40000000000003`, 129.33}, {361.55280396833103`, 
+                    120.18034871150752`}}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {423.20000000000005`, 500.}], 
+                    
+                    LineBox[{{{406.95068751058784`, 484.84476184214077`}, {
+                    382.40000000000003`, 470.67}}, {{401.95068751058784`, 
+                    493.50476184214074`}, {377.40000000000003`, 479.33}}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"N\"", "\"+\""}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox], FontSize -> Scaled[0.06687591397082426], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {336.6, 450.}], 
+                    
+                    LineBox[{{{382.40000000000003`, 470.67}, {
+                    366.55280396833103`, 461.52034871150755`}}, {{
+                    377.40000000000003`, 479.33}, {361.55280396833103`, 
+                    470.1803487115075}}}]}}}, {{
+                    RGBColor[0.784314, 0.501961, 0.2], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    
+                    TemplateBox[{"\"Cu\"", "\"2+\""}, "Superscript", 
+                    SyntaxForm -> SuperscriptBox], FontSize -> 
+                    Scaled[0.06687591397082426], StripOnInput -> False], 
+                    TraditionalForm], {0., 225.}]}}, Null}, {
+                 ImagePadding -> 2, ImageSize -> 164.48373333333336`, 
+                  PlotRange -> {{-72.67500000000001, 
+                   443.18000000000006`}, {-30., 530.}}}], 
+                GraphicsBox[{
+                  CapForm["Round"], Null, {{{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.16339637891838132`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {373.21, 25.}], 
+                    
+                    LineBox[{{354.46014629517197`, 14.175699281360123`}, {
+                    329.905, 0.}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"N\"", FontSize -> Scaled[0.16339637891838132`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {286.6, -25.}], 
+                    
+                    LineBox[{{329.905, 0.}, {
+                    303.9208810206263, -15.000645987399642`}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.16339637891838132`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {200., 25.}], 
+                    
+                    LineBox[{{{221.2493124894122, 18.504761842140766`}, {
+                    245.8, 4.330000000000001}}, {{216.2493124894122, 
+                    9.844761842140763}, {240.8, -4.330000000000001}}}], 
+                    RGBColor[0.291989, 0.437977, 0.888609], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"N\"", FontSize -> Scaled[0.16339637891838132`], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {286.6, -25.}], 
+                    
+                    LineBox[{{{245.8, 4.330000000000001}, {
+                    271.77961894742526`, -10.669779992739734`}}, {{
+                    240.8, -4.330000000000001}, {
+                    266.77961894742526`, -19.329779992739738`}}}]}}}, {}, 
+                  Null}, {
+                 ImagePadding -> 2, ImageSize -> 88., 
+                  PlotRange -> {{175.025, 393.19}, {-55., 47.5}}}], 
+                GraphicsBox[{
+                  CapForm["Round"], Null, {{{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.2581177311404031], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {253.69000000000003`, -15.5}], 
+                    
+                    LineBox[{{272.14316523275716`, -4.847334781834798}, {
+                    280.54, 0.}}], 
+                    RGBColor[
+                    0.43333333333333335`, 0.4666666666666667, 
+                    0.4666666666666667], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"H\"", FontSize -> Scaled[0.2581177311404031], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {307.39, 15.5}], 
+                    
+                    LineBox[{{280.54, 0.}, {290.33640229564344`, 
+                    5.655278792643328}}]}}, {{
+                    AbsoluteThickness[0.55], 
+                    RGBColor[0.800498, 0.201504, 0.192061], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"O\"", FontSize -> Scaled[0.2581177311404031], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {253.69000000000003`, -15.5}], 
+                    
+                    LineBox[{{235.2376938789542, -4.845846717220688}, {
+                    226.84500000000003`, 0.}}], 
+                    RGBColor[
+                    0.43333333333333335`, 0.4666666666666667, 
+                    0.4666666666666667], 
+                    InsetBox[
+                    FormBox[
+                    StyleBox[
+                    "\"H\"", FontSize -> Scaled[0.2581177311404031], 
+                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    ScriptMinSize -> 8, StripOnInput -> False], 
+                    TraditionalForm], {200., 15.5}], 
+                    
+                    LineBox[{{226.84500000000003`, 0.}, {217.0528037513776, 
+                    5.65390358925861}}]}}}, {}, Null}, {
+                 ImagePadding -> 2, ImageSize -> 88., 
+                  PlotRange -> {{177.96318579800152`, 
+                   325.0194513615988}, {-44.88241893599796, 
+                   37.53681420199847}}}]}, "RowWithSeparator"]}, 
+             "RowDefault"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {
+              FontFamily -> "Times", 
+               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsFrameTicks"]}}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          CellSize -> {550, Automatic}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Names", "scanner" -> "Data", "id" -> 
+     "ReactionNames:ChemicalReactionData", "position" -> "400", "error" -> 
+     "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              TemplateBox[{
+                StyleBox["\"  +  \"", {
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False], "\"copper\"", 
+                "\"aqueous nitric acid\""}, "RowWithSeparator"], "\"   \"", 
+              StyleBox["\"\[LongRightArrow]\"", {
+                GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                LineIndent -> 0}, StripOnInput -> False], "\"   \"", 
+              TemplateBox[{
+                StyleBox["\"  +  \"", {
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False], 
+                "\"copper(II) nitrate\"", "\"nitrogen dioxide\"", 
+                "\"water\""}, "RowWithSeparator"]}, "RowDefault"], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {
+              FontFamily -> "Times", 
+               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsFrameTicks"]}}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          CellSize -> {550, Automatic}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
+   Typeset`pod5$$ = XMLElement[
+   "pod", {"title" -> "Equilibrium constant", "scanner" -> "Data", "id" -> 
+     "ReactionKineticsConstant:ChemicalReactionData", "position" -> "500", 
+     "error" -> "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              SubscriptBox[
+               StyleBox["\"K\"", Italic, StripOnInput -> False], "\"c\""], 
+              StyleBox["\"  =  \"", {
+                GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                LineIndent -> 0}, StripOnInput -> False], 
+              StyleBox[
+               TagBox[
+                FractionBox[
+                 RowBox[{
+                   FormBox[
+                    TemplateBox[{"\"[\"", 
+                    TagBox[
+                    StyleBox[
+                    TemplateBox[{"\"Cu\"", 
+                    SubscriptBox[
+                    TemplateBox[{"\"(\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"], "\")\""}, "RowDefault"], 
+                    "2"]}, "RowDefault"], ScriptBaselineShifts -> {0.5, 0.75},
+                     StripOnInput -> False], 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "Cu(NO3)2"]], 
+                    "\"]\""}, "RowDefault"], TraditionalForm], " ", 
+                   FormBox[
+                    TemplateBox[{
+                    FormBox[
+                    TemplateBox[{"\"[\"", 
+                    TagBox[
+                    StyleBox[
+                    TemplateBox[{"\"N\"", 
+                    SubscriptBox["\"O\"", "2"]}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "NO2"]], 
+                    "\"]\""}, "RowDefault"], TraditionalForm], "2"}, 
+                    "Superscript", SyntaxForm -> SuperscriptBox], 
+                    TraditionalForm], " ", 
+                   FormBox[
+                    TemplateBox[{
+                    FormBox[
+                    TemplateBox[{"\"[\"", 
+                    TagBox[
+                    StyleBox[
+                    TemplateBox[{
+                    SubscriptBox["\"H\"", "2"], "\"O\""}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "H2O"]], 
+                    "\"]\""}, "RowDefault"], TraditionalForm], "2"}, 
+                    "Superscript", SyntaxForm -> SuperscriptBox], 
+                    TraditionalForm]}], 
+                 RowBox[{
+                   FormBox[
+                    TemplateBox[{"\"[\"", 
+                    TagBox[
+                    StyleBox[
+                    TemplateBox[{"\"Cu\""}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "Cu"]], 
+                    "\"]\""}, "RowDefault"], TraditionalForm], " ", 
+                   FormBox[
+                    TemplateBox[{
+                    FormBox[
+                    TemplateBox[{"\"[\"", 
+                    TagBox[
+                    StyleBox[
+                    TemplateBox[{"\"H\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"]}, "RowDefault"], 
+                    ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                    False], 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "HNO3"]], 
+                    "\"]\""}, "RowDefault"], TraditionalForm], "4"}, 
+                    "Superscript", SyntaxForm -> SuperscriptBox], 
+                    TraditionalForm]}]], HoldForm], 
+               FractionBoxOptions -> {AllowScriptLevelChange -> False}, 
+               StripOnInput -> False]}, "RowDefault"], TraditionalForm]], 
+          "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {
+              FontFamily -> "Times", 
+               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsFrameTicks"]}}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          CellSize -> {550, Automatic}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
+   Typeset`pod6$$ = XMLElement[
+   "pod", {"title" -> "Chemical names and formulas", "scanner" -> "Data", 
+     "id" -> "ChemicalNamesAndFormulas:ChemicalReactionData", "position" -> 
+     "600", "error" -> "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                  "\"\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                  "\"copper\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                  "\"aqueous nitric acid\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                  "\"copper(II) nitrate\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                  "\"nitrogen dioxide\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                  "\"water\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"formula\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TemplateBox[{"\"Cu\""}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{"\"H\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"]}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{"\"Cu\"", 
+                    SubscriptBox[
+                    TemplateBox[{"\"(\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"], "\")\""}, "RowDefault"], 
+                    "2"]}, "RowDefault"], ScriptBaselineShifts -> {0.5, 0.75},
+                   StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{"\"N\"", 
+                    SubscriptBox["\"O\"", "2"]}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{
+                    SubscriptBox["\"H\"", "2"], "\"O\""}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                  False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"Hill formula\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TemplateBox[{"\"Cu\""}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{"\"H\"", "\"N\"", 
+                    SubscriptBox["\"O\"", "3"]}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{"\"Cu\"", 
+                    SubscriptBox["\"N\"", "2"], 
+                    SubscriptBox["\"O\"", "6"]}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{"\"N\"", 
+                    SubscriptBox["\"O\"", "2"]}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> False], 
+                 StyleBox[
+                  TemplateBox[{
+                    SubscriptBox["\"H\"", "2"], "\"O\""}, "RowDefault"], 
+                  ScriptBaselineShifts -> {0.5, 0.75}, StripOnInput -> 
+                  False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"name\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], "\"copper\"", 
+                 "\"aqueous nitric acid\"", "\"copper(II) nitrate\"", 
+                 "\"nitrogen dioxide\"", "\"water\""}, {
+                 TagBox[
+                  PaneBox[
+                  "\"IUPAC name\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], "\"copper\"", 
+                 "\"nitric acid\"", "\"copper(II) nitrate\"", 
+                 "\"Nitrogen dioxide\"", "\"water\""}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {Left, Left, Left, Left, Left, Left}, 
+                 "Rows" -> {{Baseline}}, 
+                 "ItemsIndexed" -> {{1, 1} -> {Center, Baseline}, {1, 2} -> {
+                    Center, Baseline}, {1, 3} -> {Center, Baseline}, {1, 
+                    4} -> {Center, Baseline}, {1, 5} -> {Center, Baseline}, {
+                    1, 6} -> {Center, Baseline}}}, AutoDelete -> False, 
+               GridBoxBackground -> {
+                "Columns" -> {None, None}, "Rows" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {
+              FontFamily -> "Times", 
+               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsFrameTicks"]}}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          CellSize -> {550, Automatic}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
+   Typeset`pod7$$ = XMLElement[
+   "pod", {"title" -> "Substance properties", "scanner" -> "Data", "id" -> 
+     "ChemicalProperties:ChemicalReactionData", "position" -> "700", "error" -> 
+     "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                  "\"\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                   StyleBox[
+                   "\"copper\"", {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                   StyleBox[
+                   "\"aqueous nitric acid\"", {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                   StyleBox[
+                   "\"copper(II) nitrate\"", {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                   StyleBox[
+                   "\"nitrogen dioxide\"", {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  PaneBox[
+                   StyleBox[
+                   "\"water\"", {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Center}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"molar mass\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["63.546", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "63.546"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"mol\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["63.0128", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "63.0128"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"mol\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["187.56", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "187.56"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"mol\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["46.0055", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "46.0055"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"mol\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["18.0153", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "18.0153"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"mol\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"phase\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    TagBox["\"solid\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {"MatterPhase", "Solid"}]], Identity], 
+                    TraditionalForm], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"at STP\"", "\[NoBreak]", 
+                    "\")\""}], {FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
+                  0], 
+                 StyleBox[
+                  TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    TagBox["\"aqueous\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {"MatterPhase", "Aqueous"}]], Identity], 
+                    TraditionalForm], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"at STP\"", "\[NoBreak]", 
+                    "\")\""}], {FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
+                  0], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 StyleBox[
+                  TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    TagBox["\"gas\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {"MatterPhase", "Gas"}]], Identity], 
+                    TraditionalForm], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"at STP\"", "\[NoBreak]", 
+                    "\")\""}], {FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
+                  0], 
+                 StyleBox[
+                  TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    TagBox["\"liquid\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {"MatterPhase", "Liquid"}]], Identity], 
+                    TraditionalForm], "\"  \"", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", "\"at STP\"", "\[NoBreak]", 
+                    "\")\""}], {FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
+                  0]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"melting point\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["1083", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "1083"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"-", 
+                    TagBox["11", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "11"]]}], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    RowBox[{
+                    TagBox["0", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "0"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], #& , SyntaxForm -> Dot], "Unit", SyntaxForm -> 
+                   Dot], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                  LineIndent -> 0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"boiling point\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["2567", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "2567"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["120.5", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "120.5"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["21", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "21"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["99.9839", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "99.9839"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                   SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"density\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["8.96", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "8.96"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["1.4", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "1.4"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 StyleBox[
+                  TemplateBox[{
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["0.00188", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "0.00188"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{"\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\"  \"", 
+                    StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"at \"", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["25", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "25"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False]}, "RowDefault"], 
+                    TraditionalForm], Format[#, TraditionalForm]& ], 
+                    TraditionalForm], "\[NoBreak]", "\")\""}], {
+                    FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
+                  0], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["1", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "1"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"solubility in water\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], "\"insoluble\"", 
+                 "\"miscible\"", 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], "\"reacts\"", 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"surface tension\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["0.0728", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "0.0728"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"N\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"m\""}], FontFamily -> "Helvetica",
+                     FontSize -> Smaller]}], Identity], #& , SyntaxForm -> 
+                    Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"dynamic viscosity\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 StyleBox[
+                  TemplateBox[{
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"4.02", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.5]], 
+                    SuperscriptBox["10", "-4"]}], 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"4.02", "\[Times]", 
+                    SuperscriptBox["10", "-4"]}]], SyntaxForm -> CenterDot], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{"\"Pa\"", "\[InvisibleSpace]", "\"\[ThinSpace]\"",
+                     "\[InvisibleSpace]", "\"s\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\"  \"", 
+                    StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"at \"", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["25", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "25"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False]}, "RowDefault"], 
+                    TraditionalForm], Format[#, TraditionalForm]& ], 
+                    TraditionalForm], "\[NoBreak]", "\")\""}], {
+                    FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
+                  0], 
+                 StyleBox[
+                  TemplateBox[{
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"8.9", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.5]], 
+                    SuperscriptBox["10", "-4"]}], 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"8.9", "\[Times]", 
+                    SuperscriptBox["10", "-4"]}]], SyntaxForm -> CenterDot], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{"\"Pa\"", "\[InvisibleSpace]", "\"\[ThinSpace]\"",
+                     "\[InvisibleSpace]", "\"s\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\"  \"", 
+                    StyleBox[
+                    RowBox[{"\"(\"", "\[NoBreak]", 
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"at \"", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["25", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "25"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    "\"\[Degree]C\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller]}], Identity], #& , SyntaxForm -> Dot], "Unit", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False]}, "RowDefault"], 
+                    TraditionalForm], Format[#, TraditionalForm]& ], 
+                    TraditionalForm], "\[NoBreak]", "\")\""}], {
+                    FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, "RowDefault"], LineIndent -> 
+                  0]}, {
+                 TagBox[
+                  PaneBox[
+                  "\"odor\"", 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                 "\"odorless\"", {
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}, StripOnInput -> False], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 FormBox[
+                  TagBox["\"\"", 
+                   $CellContext`TagBoxWrapper["Missing" -> "NotAvailable"]], 
+                  TraditionalForm], 
+                 StyleBox[
+                 "\"odorless\"", {
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}, StripOnInput -> False]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {Left, Left, Left, Right, Left, Left}, 
+                 "Rows" -> {{Baseline}}, 
+                 "ItemsIndexed" -> {{1, 1} -> {Center, Baseline}, {1, 2} -> {
+                    Center, Baseline}, {1, 3} -> {Center, Baseline}, {1, 
+                    4} -> {Center, Baseline}, {1, 5} -> {Center, Baseline}, {
+                    1, 6} -> {Center, Baseline}}}, AutoDelete -> False, 
+               GridBoxBackground -> {
+                "Columns" -> {None, None}, "Rows" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {
+              FontFamily -> "Times", 
+               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
+               Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                 FontOpacity -> 1, 
+                 "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+               Directive[
+                FontFamily -> "Times", FontSize -> 10, 
+                 "GraphicsFrameTicks"]}}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          CellSize -> {550, Automatic}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     
+     XMLElement["infos", {"count" -> "1"}, {
+       XMLElement["info", {}, {
+         XMLElement["units", {"count" -> "4"}, {
+           XMLElement[
+           "unit", {
+            "short" -> "g/cm^3", "long" -> "grams per cubic centimeter"}, {}], 
+           XMLElement[
+           "unit", {"short" -> "g/mol", "long" -> "grams per mole"}, {}], 
+           XMLElement[
+           "unit", {"short" -> "N/m", "long" -> "newtons per meter"}, {}], 
+           XMLElement[
+           "unit", {"short" -> "Pa s", "long" -> "pascal seconds"}, {}], 
+           XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+             Cell[
+              BoxData[
+               FormBox[
+                StyleBox[
+                 TagBox[
+                  GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    StyleBox[
+                    
+                    RowBox[{"\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], 
+                    "UnitOnly", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], 10, StripOnInput -> False], 
+                    StyleBox[
+                    "\"grams per cubic centimeter\"", {
+                    FontSize -> 10, FontFamily -> "Helvetica", FontSize -> 
+                    Smaller, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    StyleBox[
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    StyleBox[
+                    
+                    RowBox[{"\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"mol\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], 
+                    "UnitOnly", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], 10, StripOnInput -> False], 
+                    StyleBox[
+                    "\"grams per mole\"", {
+                    FontSize -> 10, FontFamily -> "Helvetica", FontSize -> 
+                    Smaller, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    StyleBox[
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    StyleBox[
+                    
+                    RowBox[{"\"N\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", "\"m\""}], FontFamily -> "Helvetica",
+                     FontSize -> Smaller]}], Identity], "UnitOnly", 
+                    SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], 10, StripOnInput -> False], 
+                    StyleBox[
+                    "\"newtons per meter\"", {
+                    FontSize -> 10, FontFamily -> "Helvetica", FontSize -> 
+                    Smaller, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    StyleBox[
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    StyleBox[
+                    
+                    RowBox[{"\"Pa\"", "\[InvisibleSpace]", "\"\[ThinSpace]\"",
+                     "\[InvisibleSpace]", "\"s\""}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], 
+                    "UnitOnly", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], 10, StripOnInput -> False], 
+                    StyleBox[
+                    "\"pascal seconds\"", {
+                    FontSize -> 10, FontFamily -> "Helvetica", FontSize -> 
+                    Smaller, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}}, 
+                   GridBoxAlignment -> {
+                    "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+                   AutoDelete -> False, 
+                   GridBoxBackground -> {"Columns" -> {{None}}}, 
+                   GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                   GridBoxSpacings -> {
+                    "Columns" -> {{1.5}}, "Rows" -> {{0.5}}}, FrameStyle -> 
+                   GrayLevel[0.84], BaselinePosition -> Automatic, 
+                   AllowScriptLevelChange -> False], "Grid"], 
+                 LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+                 False], TraditionalForm]], "Output", {
+              Background -> None, 
+               GraphicsBoxOptions -> {
+                DefaultBaseStyle -> {
+                  FontFamily -> "Times", 
+                   "Graphics", \
+$CellContext`GraphicsBoxOptionsDefaultAxesStyle -> Directive[
+                    GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                    FontOpacity -> 1, 
+                    "GraphicsAxes"], \
+$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
+                   Directive[
+                    FontFamily -> "Times", FontSize -> 10, 
+                    "GraphicsTicks"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
+                    GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                    FontOpacity -> 1, 
+                    "GraphicsFrame"], \
+$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
+                   Directive[
+                    FontFamily -> "Times", FontSize -> 10, 
+                    "GraphicsFrameTicks"]}}, 
+               Graphics3DBoxOptions -> {
+                DefaultBaseStyle -> {
+                  FontFamily -> "Times", "Graphics3D"}}}]}]}]}]}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`aux4$$ = {True, False, {False}, True}, Typeset`aux5$$ = {
+   True, False, {False}, True}, Typeset`aux6$$ = {True, False, {False}, True},
+    Typeset`aux7$$ = {True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+   Typeset`nonpods$$ = {
+    XMLElement["assumptions", {"count" -> "1"}, {
+      XMLElement[
+      "assumption", {
+       "type" -> "SubCategory", "word" -> "input", "template" -> 
+        "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2"}, {
+        XMLElement[
+        "value", {
+         "name" -> "Molecule[N, SelfJoined[O, 2]]", "desc" -> 
+          "nitrogen dioxide", "input" -> 
+          "*DPClash.ChemicalE.input-_*%7FMolecule%5B%22N%22%2C+SelfJoined%5B%\
+22O%22%2C+2%5D%5D-"}, {}], 
+        XMLElement[
+        "value", {
+         "name" -> "NitrogenDioxide", "desc" -> "nitrogen dioxide", "input" -> 
+          "*DPClash.ChemicalE.input-_*NitrogenDioxide-"}, {}]}]}], 
+    XMLElement["sources", {"count" -> "3"}, {
+      XMLElement[
+      "source", {
+       "url" -> 
+        "http://www.wolframalpha.com/sources/\
+ChemicalDataSourceInformationNotes.html", "text" -> "Chemical data"}, {}], 
+      XMLElement[
+      "source", {
+       "url" -> 
+        "http://www.wolframalpha.com/sources/\
+ChemicalReactionDataSourceInformationNotes.html", "text" -> 
+        "Chemical reaction data"}, {}], 
+      XMLElement[
+      "source", {
+       "url" -> 
+        "http://www.wolframalpha.com/sources/\
+ElementDataSourceInformationNotes.html", "text" -> "Element data"}, {}]}]}, 
+   Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "6", "datatypes" -> 
+    "ChemicalReaction", "timedout" -> "Data,Character", "timedoutpods" -> "", 
+    "timing" -> "5.857", "parsetiming" -> "1.287", "parsetimedout" -> "false",
+     "recalculated" -> 
+    "http://www5b.wolframalpha.com/api/v2/recalc.jsp?id=\
+MSPa5101g60i91218i107fd00005e38232hbhf49cfd4195049435822711915", "id" -> 
+    "MSPa5111g60i91218i107fd00003839aia4619g84ff", "host" -> 
+    "http://www5b.wolframalpha.com", "server" -> "55", "related" -> 
+    "http://www5b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa5121g60i91218i107fd00005g8181ghei97547c4195049435822711915", "version" -> 
+    "2.6"}, Typeset`sessioninfo$$ = {
+   "TimeZone" -> 3., 
+    "Date" -> {2016, 12, 11, 16, 8, 20.374968`8.061671919034241}, "Line" -> 
+    57, "SessionID" -> 32720405792737111173}, Typeset`showpods$$ = {1, 2, 3, 
+   4, 5, 6, 7}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, 
+   Typeset`open$$ = False, Typeset`newq$$ = 
+   "Cu + HNO3 -> Cu(NO3)2 + NO2 + H2O"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
+         Typeset`aux5$$, Typeset`aux6$$, Typeset`aux7$$}, Typeset`chosen$$, 
+        Typeset`open$$, Typeset`elements$$, Typeset`q$$, Typeset`opts$$, 
+        Typeset`nonpods$$, Typeset`queryinfo$$, Typeset`sessioninfo$$, 
+        Typeset`showpods$$, Typeset`failedpods$$, Typeset`newq$$}]], 
+     StandardForm],
+    ImageSizeCache->{695., {592., 597.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{
+        Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$}], 
+       Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.690450366925103*^9, 3.6904505004230547`*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 756},
+WindowMargins->{{Automatic, 2}, {41, Automatic}},
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 10, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 223, 4, 28, "Input"],
+Cell[806, 28, 102353, 2106, 1206, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
