@@ -1,0 +1,58 @@
+\begin{ptkarticle}[english]%
+{On five properties of boolean functions}{Modelman~M., Primerov~P.\,P.}
+\TwoAuthor%
+{Modelman Moris}%
+    {Emskiy university}{modelman\_m@emsu.ru}%
+{\foreignlanguage{russian}{Примеров Петр Петрович}}%
+    {\foreignlanguage{russian}{Юмский университет}}{primerov\_pp@yumsu.ru}
+
+This is an example of article formatting. The article formatting conventions
+themselves are listed in file \texttt{ptk18\_instr.pdf}. There are examples of
+article~[1], dissertation~[2], book~[3] references.
+\begin{figure*}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{bcube}
+\caption{Fig.~1: Boolean cube slices.}
+\end{figure*}
+
+% Subtitles can be specified with \Subtitle{Subtitle name}
+\Subtitle{Subtitle}
+
+We use command \verb|\eqno| to numerate standalone formulas like this:
+% It's better to use environment equation* for standalone formulas
+\begin{equation*}
+[\{x\&y,\ x\vee y,\ {\bar x}\}] = P_2. \eqno{(1)}
+\end{equation*}
+Environments like \texttt {theorem} and other commands of \texttt {amsthm}
+package aren't supported. We suggest using the following template for theorems,
+lemmas and other statements:
+
+\noindent
+\hbox{\bfseries Theorem 1.}
+{\itshape The statement of the theorem on five boolean functions goes here.}
+
+\noindent
+\textbf{Proof.}
+The proof of theorem~1 goes here.
+\textbf{Theorem~1 is proved.}
+
+% Bibliography is specified manually with the environment ptkreferences
+% which is a variant of the enumeration environment
+\begin{ptkreferences}
+\item
+Modelman~M. Some properties of boolean functions~// Bulletin of Emskiy
+state university. Series~9. Mathematical cybernetics. --- 2014.
+--- Vol.~2, Iss.~5. --- P.\,80--91.
+% For russian references use the environment otherlanguage
+\begin{otherlanguage}{russian}
+\item
+Примеров~П.\,П. Методы оценки сложности недоопределенных булевых функций~: дис.
+\ldots\ канд. физ.-мат. наук~: 01.01.09~: защищена 12.03.13~: утв. 24.09.13~/
+Примеров Петр Петрович. --- Юмск, 2013. --- 199\,с. --- Библиогр.~: с.~185–197.
+--- 04200204433.
+\item
+Львовский~С.\,М. Набор и вёрстка в системе \LaTeX. --- М.~: МЦНМО, 2006. ---
+448\,с.
+\end{otherlanguage}
+\end{ptkreferences}
+\end{ptkarticle}
