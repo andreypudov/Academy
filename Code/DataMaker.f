@@ -45,7 +45,7 @@ program DataMaker
 
     implicit none
 
-    integer, parameter :: NUMBER_OF_PACKAGES = 5
+    integer, parameter :: NUMBER_OF_PACKAGES = 4
     integer, parameter :: NUMBER_OF_OBJECTS  = (NUMBER_OF_PACKAGES ** 2) + 1
 
     integer, parameter :: TIME_OF_ARRIVIAL_MAX      = NUMBER_OF_OBJECTS * 2

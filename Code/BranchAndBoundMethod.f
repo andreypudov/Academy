@@ -7,8 +7,14 @@ contains
     subroutine SerialSolution(data)
         integer, dimension(:,:), allocatable, intent(in) :: data
 
+        logical, dimension(:),  allocatable :: processed
+
+        allocate(processed(size(data, 1)))
+
         call UpperBound(data)
-        call LowerBound(data)
+        call LowerBound(data, processed)
+
+        deallocate(processed)
     end subroutine
 
     subroutine UpperBound(data)
@@ -60,8 +66,9 @@ contains
         print '(/A,I)', 'Upper bound: ', upper
     end subroutine
 
-    subroutine LowerBound(data)
+    subroutine LowerBound(data, processed)
         integer, dimension(:,:), allocatable, intent(in) :: data
+        logical, dimension(:),   allocatable, intent(in) :: processed
 
         integer arrival
         integer begin
@@ -136,22 +143,20 @@ contains
 
         ! skip data header
         read(unit, *, iostat = status)
-        print '(11x,a,11x,a,11x,a,10x,a)', 't', 'a', 'n', 'tau'
+        print '(11x,a,11x,a,11x,A,10x,a)', 't', 'a', 'n', 'tau'
         row = 1
 
-        do while ((status == 0) .and. (.not. eof(unit)) .and. (row <= rows))
+        do while ((status == 0) .and. (row <= rows))
             read(unit, '(I,I,I,I)', iostat = status) t, a, n, tau
 
             if (status == 0) then
-                print '(I,I,I,I)', t, a, n, tau
+                print '(i,i,i,i)', t, a, n, tau
 
                 data(row, 1) = t
                 data(row, 2) = a
                 data(row, 3) = n
                 data(row, 4) = tau
                 data(row, 5) = 0    ! is serviced
-            else
-                print '(A)', 'Unable to read data file.', status
             end if
 
             row = row + 1
@@ -170,13 +175,11 @@ contains
         open(newunit = unit, file = file, status = 'old', readonly)
         number = 0
 
-        do while ((status == 0) .and. .not. eof(unit))
+        do while (status == 0)
             read(unit, *, iostat = status)
 
             if (status == 0) then
                 number = number + 1
-            else
-                print '(a,i)', 'Unable to read data file.', status
             end if
         end do
 

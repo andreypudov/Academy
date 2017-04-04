@@ -29,18 +29,6 @@ contains
             if (Permutation(list) .eqv. .false.) then
                 exit
             end if
-
-            if (Permutation(list) .eqv. .false.) then
-                exit
-            end if
-
-            if (Permutation(list) .eqv. .false.) then
-                exit
-            end if
-
-            if (Permutation(list) .eqv. .false.) then
-                exit
-            end if
         end do
 
         print '(x)'
@@ -187,7 +175,7 @@ contains
         print '(11x,a,11x,a,11x,A,10x,a)', 't', 'a', 'n', 'tau'
         row = 1
 
-        do while ((status == 0) .and. (.not. eof(unit)) .and. (row <= rows))
+        do while ((status == 0) .and. (row <= rows))
             read(unit, '(I,I,I,I)', iostat = status) t, a, n, tau
 
             if (status == 0) then
@@ -198,8 +186,6 @@ contains
                 data(row, 3) = n
                 data(row, 4) = tau
                 data(row, 5) = 0    ! is serviced
-            else
-                print '(a)', 'Unable to read data file.', status
             end if
 
             row = row + 1
@@ -218,13 +204,11 @@ contains
         open(newunit = unit, file = file, status = 'old', readonly)
         number = 0
 
-        do while ((status == 0) .and. .not. eof(unit))
+        do while (status == 0)
             read(unit, *, iostat = status)
 
             if (status == 0) then
                 number = number + 1
-            else
-                print '(a,i)', 'Unable to read data file.', status
             end if
         end do
 
