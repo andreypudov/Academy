@@ -7,112 +7,87 @@ contains
     subroutine SerialSolution(data)
         integer, dimension(:,:), allocatable, intent(in) :: data
 
-        logical, dimension(:),  allocatable :: processed
+        integer, dimension(:), allocatable :: list
 
-        allocate(processed(size(data, 1)))
+        call ConstructList(data, list)
 
-        call UpperBound(data)
-        call LowerBound(data, processed)
+        print *, UpperBound(data, list)
+        print *, LowerBound(data, list)
 
-        deallocate(processed)
+        deallocate(list)
     end subroutine
 
-    subroutine UpperBound(data)
-        integer, dimension(:,:), allocatable, intent(in) :: data
+    subroutine ConstructList(data, list)
+        integer, dimension(:,:), intent(in) :: data
+        integer, dimension(:), allocatable, intent(inout) :: list
+
+        integer package
+        integer object
+        integer total
+        integer index
+
+        integer n ! the number of objects in the stream
+
+        total = 0
+        do package = 1, size(data, 2)
+            n = data(3, package)
+
+            total = total + n
+        end do
+
+        allocate(list(total))
+
+        index = 1
+        do package = 1, size(data, 2)
+            n = data(3, package)
+
+            do object = 1, n
+                list(index) = package
+                index = index + 1
+            end do
+        end do
+    end subroutine
+
+    function UpperBound(data, list) result(upper)
+        integer, dimension(:,:), intent(in) :: data
+        integer, dimension(:),   intent(in) :: list
+        integer upper
+
+        integer, dimension(size(data, 1)) :: delta
 
         integer arrival
         integer begin
         integer end
 
         integer package
-        integer object
-
-        integer t   ! the moment when the object arrives
-        integer a   ! the penalty per unit of time
-        integer n   ! the number of objects in the stream
-        integer tau ! the duration of servicing
-
-        integer penalty
-        integer estimate
-        integer upper
+        integer index
 
         ! the time values for the first object
         end   = 0
         upper = 0
 
-        print '(/5X,A,7X,A,9X,A)', 'Arrival', 'Begin', 'End'
+        do index = 1, size(list)
+            package = list(index)
 
-        do package = 1, size(data, 1)
-            t   = data(package, 1)
-            a   = data(package, 2)
-            n   = data(package, 3)
-            tau = data(package, 4)
+            arrival = data(1, package)
+            begin   = max(end, arrival)
+            end     = begin + data(4, package)
 
-            do object = 1, n
-                arrival = t
-                begin   = end
-                end     = begin + tau
-
-                print '(I,I,I)', arrival, begin, end
-            end do
-
-            penalty  = end - arrival
-            estimate = a * penalty
-            upper    = upper + estimate
-
-            print '(5X,A,I2,A,I3,A,I4)', 'a = ', a, ', d = ', penalty, ', estimate = ', estimate
+            delta(package) = end - data(1, package)
         end do
 
-        print '(/A,I)', 'Upper bound: ', upper
-    end subroutine
+        do index = 1, size(data, 2)
+            upper = upper + (delta(index) * data(2, index))
+        end do
+    end function
 
-    subroutine LowerBound(data, processed)
+    function LowerBound(data, list) result(lower)
         integer, dimension(:,:), allocatable, intent(in) :: data
-        logical, dimension(:),   allocatable, intent(in) :: processed
-
-        integer arrival
-        integer begin
-        integer end
-
-        integer package
-
-        integer t   ! the moment when the object arrives
-        integer a   ! the penalty per unit of time
-        integer n   ! the number of objects in the stream
-        integer tau ! the duration of servicing
-
-        integer estimate
+        integer, dimension(:),   intent(in) :: list
         integer lower
 
-        ! the time values for the first object
-        end   = 0
-        lower = 0
-
-        print '(/5X,A,7X,A,9X,A)', 'Arrival', 'Begin', 'End'
-
-        do package = 1, size(data, 1)
-            t   = data(package, 1)
-            a   = data(package, 2)
-            !n   = data(package, 3)
-            tau = data(package, 4)
-
-            arrival = t
-            begin   = end
-            end     = arrival + begin
-            if (package == 1) then
-                end = n * tau
-            end if
-
-            print '(I,I,I)', arrival, begin, end
-
-            estimate = a * tau
-            lower    = lower + estimate
-
-            print '(5X,A,I2,A,I3,A,I4)', 'a = ', a, ', d = ', tau, ', estimate = ', estimate
-        end do
-
-        print '(/A,I)', 'Lower bound: ', lower
-    end subroutine
+        lower = -1
+    end function
 end module
 
 module IO
@@ -137,7 +112,7 @@ contains
         integer row
 
         rows = GetNumberOfLines(file)
-        allocate(data(rows - 1, 5))
+        allocate(data(4, rows - 1))
 
         open(newunit = unit, file = file, status = 'old', readonly)
 
@@ -152,11 +127,11 @@ contains
             if (status == 0) then
                 print '(i,i,i,i)', t, a, n, tau
 
-                data(row, 1) = t
-                data(row, 2) = a
-                data(row, 3) = n
-                data(row, 4) = tau
-                data(row, 5) = 0    ! is serviced
+                data(1, row) = t
+                data(2, row) = a
+                data(3, row) = n
+                data(4, row) = tau
+                data(5, row) = 0    ! is serviced
             end if
 
             row = row + 1
